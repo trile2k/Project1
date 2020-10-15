@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <!--
     ITMD-361 Project 1 – Create 3 HTML pages.
-
-    This HTML page is for my Favoreite Places.
+    This HTML page is for my Favorite Places.
+    UTF-8 encoding table: https://www.utf8-chartable.de/unicode-utf8-table.pl?number=1024&utf8=dec&unicodeinhtml=dec
   -->
-
   <head>
     <meta charset="UTF-8">
     <title>ITMD-361 Project 1 - Favorite Places</title>
@@ -23,23 +21,19 @@
         </ul>
       </nav>
     </header>
-
     <h1>My Favorite Places in Northern Vietnam</h1>
-
     <!-- Ha Long Bay -->
     <section id="halong">
       <h2>Ha Long Bay</h2>
       <p>Ha Long Bay is located in the North East of Vietnam. With thousands of limestone towers
-        rising from its turquoise waters, Ha Long Bay is rightly considered one of Vietnam’s most
+        rising from its turquoise waters, Ha Long Bay is rightly considered as one of Vietnam’s most
         beautiful spots and a UNESCO World Heritage Site.</p>
       <img src="images/halong/rock.jpg" alt="Limestone islands rising from turquoise waters.">
-
-      <p>The bay's scenery is best seen by boat, although it was misty and foggy when we went.</p>
+      <!-- ' = 39 UTF-8 decimal -->
+      <p>The bay&#39;s scenery is best seen by boat, although it was misty and foggy when we went.</p>
       <img src="images/halong/boat.jpg" alt="Site scene by boat.">
-
       <p>A Fish Rock formation.</p>
       <img src="images/halong/fish.jpg" alt="Fish Rock formation rising from turquoise waters.">
-
       <p>This was supposed to be the Kissing Chicken Rocks but you have to see it at the correct
         angle.</p>
       <img src="images/halong/chicken.jpg" alt="Kissing Chicken Rocks rising from waters.">
@@ -50,29 +44,27 @@
       <h2>Sapa</h2>
       <p>Sapa is a remote mountain town in North Vietnam, close to the Chinese border.  This
         quiet town is known for incredible scenery, and home to ethnic minorities and hill tribes.</p>
-
-      <p>We flew from Saigon into Hanoi (capital of Vietnam), took an overnighter on an old train,
+        <!-- ( = 40 UTF-8 decimal
+             ) = 41 UTF-8 decimal -->
+      <p>We flew from Saigon into Hanoi &#40;capital of Vietnam&#41;, took an overnighter on an old train,
         followed by a long bus ride along curvy, winding, steep and bumpy mountain roads to get there.</p>
       <img src="images/sapa/road.jpg" alt="Curvy, winding, and steep mountain roads.">
-
       <p>We saw a tribeswoman working and tending to her pot-bellied pig.</p>
       <img src="images/sapa/tribeswoman.jpg" alt="Tribeswoman tending to her pot-bellied pig.">
-
       <p>She invited us to her humble home.  We made friends and felt the local life and culture.</p>
       <img src="images/sapa/house.jpg" alt="tribeswoman's home.">
-
-      <p>Lush green bamboo forest. Do you know that bamboo is the fastest growing plant in the
-        world and can grow up to 3 feet in a day?</p>
+      <!-- ? = 63 UTF-8 decimal -->
+      <p>Lush green bamboo forest. Did you know that bamboo is the fastest growing plant in the
+        world and can grow up to 3 feet in a day&#63;</p>
       <img src="images/sapa/bamboo.jpg" alt="Lush green bamboo forest.">
     </section>
-
     <!-- Footer for email contact info -->
     <footer>
       <p>Created by Tri Le</p>
       <address>
-        <p><a href="mailto:tle28@hawk.itt.edu?subject=feedback">tle28@hawk.iit.edu</a></p>
+        <!-- @ = 64 UTF-8 decimal -->
+        <p><a href="mailto:tle28&#64;hawk.itt.edu?subject=feedback">tle28&#64;hawk.iit.edu</a></p>
       </address>
     </footer>
-
   </body>
 </html>
